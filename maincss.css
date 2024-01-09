@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(128, 128, 128);
+}
+h1{
+    color: #F4B942;
+    text-align: center;
+    font-family: Agbalumo, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    border: 2px dashed rgb(151, 216, 196);
+}
+h2{
+    margin-left: 10%;
+    color: #f7b42f;
+    font-family: Helvetica, Arial, sans-serif;
+}
+p{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgb(80, 112, 163);
+    color: #e9e9e9;
+    padding: 20px;
+}
+p.message{
+  background-color: #4e4e4e;
+  color: white;
+  padding: 10px;
+}
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    background: url(images/field.png) center 100% no-repeat;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #F4B942;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #F4B942;
+    color: black;
+    font-size: 15px;
+    padding-left: 24px;
+    padding-right: 26px;
+    padding-top: 13px;
+    padding-bottom: 14px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 30%;
+    padding: 15px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
+  /* Image styling */
+  img[src*="ball"] {
+    -webkit-shape-outside: ellipse(130px 95px at 50% 50%);
+    shape-outside: ellipse(130px 190px at 50% 50%);
+    padding-top: 30px;
+    padding-right: 10px;
+    float: right;
+  }
+  img[src*="team"]{
+    -webkit-shape-outside: ellipse(130px 95px at 50% 50%);
+    shape-outside: ellipse(130px 100px at 50% 50%);
+    padding-top: 10px;
+    padding-right: 10px;
+    float: left;
+  }
+  img[src*="trophy"]{
+    position: static;
+    padding-left: 40%;
+  }
+  img[src*="bouncing"]{
+    position: fixed;
+    padding-left: 40%;
+  }
+
+  /* map styling */
+  iframe{
+    margin-left: 8%;
+    padding: 10px;
+    background-color: #F4B942;
+  }
+  .locations{
+    font-size: 35px;
+  }
+  .maps{
+    background-color: #4e4e4e;
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+  .maptitle{
+    background: none;
+    font-family: Agbalumo, 'Times New Roman', Times, serif;
+    font-size: 25px;
+  }
+  
+  /*indoor soccer styling */
+  p.indoor{
+    background: #e9e9e9;
+    color: #4e4e4e;
+    margin-left: 15%;
+  }
+  .indoor a:visited{
+    color:#ac7a15;
+  }
+  .indoor a:not(:visited){
+    color:#855d0f;
+  }
